@@ -27,9 +27,11 @@ export default function App() {
                     <div className="result">
                         <p className="label">First Dice</p>
                         <p className="accountNumber">{ludonumber}</p>
+                        <img src={`src/assets/dice${ludonumber}.png`} width={'60px'} alt="" />
 
                         <p className="label">Second Dice</p>
                         <p className="accountNumber">{ludsec}</p>
+                        <img src={`src/assets/dice${ludsec}.png`} width={'60px'} alt="" />
                     </div>
                 )}
 
