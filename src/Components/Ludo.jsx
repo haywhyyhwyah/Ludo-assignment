@@ -25,10 +25,10 @@ export default function App() {
 
                 {ludonumber && (
                     <div className="result">
-                        <p className="label">Player 1</p>
+                        <p className="label">First Dice</p>
                         <p className="accountNumber">{ludonumber}</p>
 
-                        <p className="label">Player 2</p>
+                        <p className="label">Second Dice</p>
                         <p className="accountNumber">{ludsec}</p>
                     </div>
                 )}
